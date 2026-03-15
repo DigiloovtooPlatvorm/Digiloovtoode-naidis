@@ -3,37 +3,39 @@
 Selles failis kirjeldatakse digiloovtöö põhiandmeid. Täida väljad võimalikult selgelt ja lühidalt, et töö eesmärk, sisu ja oodatav tulemus oleksid arusaadavad nii autorile, juhendajale kui ka teistele lugejatele.
 
 ## Töö pealkiri
-PLACEHOLDER
+
+Kooliürituste veebilehe loomine
 
 ## Autor(id)
-PLACEHOLDER
+
+Mari Maasikas
 
 ## Juhendaja
-PLACEHOLDER
+
+Õpetaja Nimi
 
 ## Eesmärk
-Kirjelda lühidalt, mida soovid selle tööga saavutada.
 
-PLACEHOLDER
+Luua lihtne ja selge veebileht, kust õpilased, õpetajad ja lapsevanemad leiavad kiiresti vajaliku info kooliürituste kohta.
 
 ## Lühikirjeldus
-Kirjelda paari lausega, mis töö see on ja mida selle käigus tehakse.
 
-PLACEHOLDER
+Töö käigus kavandatakse ja luuakse kooliürituste veebileht või selle prototüüp. Projekti jooksul analüüsitakse sihtrühma vajadusi, koostatakse personad, stsenaariumid ja kasutajalood ning nende põhjal luuakse praktiline lahendus, mis aitab esitada kooliürituste infot selgelt ja kasutajasõbralikult.
 
 ## Kellele töö on suunatud
-Kirjelda sihtrühma, kellele lahendus, materjal või projekt on mõeldud.
 
-PLACEHOLDER
+Töö on suunatud eelkõige õpilastele, õpetajatele ja lapsevanematele, kes vajavad kiiret ja arusaadavat ülevaadet koolis toimuvatest üritustest.
 
 ## Oodatav tulemus
-Kirjelda, milline peaks töö lõpptulemus olema.
 
-PLACEHOLDER
+Valmib kasutajasõbralik veebilahendus või selle prototüüp, mis võimaldab vaadata kooliürituste infot, näiteks ürituste aega, kohta, kirjeldust ja kontaktandmeid, ning on mugavalt kasutatav ka mobiilseadmes.
 
 ## Tähtsamad tegevused või tööetapid
-Too välja peamised sammud või etapid, mille kaudu töö valmib.
 
-- PLACEHOLDER
-- PLACEHOLDER
-- PLACEHOLDER
+- teema ja eesmärgi sõnastamine
+- sihtrühma ja kasutajate vajaduste analüüs
+- personade, stsenaariumide ja kasutajalugude koostamine
+- veebilahenduse kavandamine
+- veebilehe loomine või prototüübi valmistamine
+- testimine ja paranduste tegemine
+- lõppversiooni vormistamine
