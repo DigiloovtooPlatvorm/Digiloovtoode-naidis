@@ -1,110 +1,71 @@
-# Digiloovtöö mall
+# Digiloovtöö näidisprojekt
 
-See repositoorium on mall, mille põhjal saab luua uue digiloovtöö repositooriumi. Mall aitab alustada tööd ühtse struktuuri alusel ning koondab ühte kohta projekti põhiandmed, juhendid, analüüsi osa ja töö käigus tekkivad materjalid.
+See repositoorium on näidisprojekt, mis näitab, kuidas digiloovtöö mall võib reaalses kasutuses välja näha. Siin on näha täidetud projektikirjeldus, analüüsi osa, ülesanded, tööetapid, projektitahvel, arutelud ja wiki põhilehed.
 
-## Mis tuleb malliga kaasa
+Näidisprojekti eesmärk on anda ülevaade sellest, kuidas GitHubi saab kasutada digiloovtöö planeerimiseks, dokumenteerimiseks ja edenemise jälgimiseks.
 
-Selle malli kasutamisel luuakse uus repositoorium sama failistruktuuri ja põhifailidega. Kaasa tulevad näiteks:
+## Mida see näidis näitab
 
-- `README.md`
-- `projekti-kirjeldus.md`
-- kaust `juhendid/`
-- kaust `projekti-analuus/`
-- kaust `docs/`
-- issue template'id
+Selles repositooriumis on näha näiteks:
 
-Kui repositoorium luuakse organisatsiooni alla, kus on eelnevalt määratud vaikimisi labelid, lisanduvad ka need automaatselt.
+- täidetud `projekti-kirjeldus.md`
+- täidetud analüüsifailid kaustas `projekti-analuus/`
+- loodud issue’d koos labelite ja milestone’idega
+- projektitahvel ülesannete jälgimiseks
+- näidisarutelu Discussions vaates
+- wiki põhilehed
+- töö käigus loodud materjalid kaustas `docs/`
 
-## Mida tuleb pärast uue repositooriumi loomist eraldi seadistada
+## Milleks seda repositooriumi kasutada
 
-Mõned GitHubi töövahendid ei tule repositooriumi malli kasutamisel automaatselt kaasa ja need tuleb vajadusel uues repositooriumis eraldi seadistada.
+Seda näidisrepositooriumi saab kasutada selleks, et:
 
-- **Wiki** – kui soovid kasutada wiki't pikemate juhiste ja töökorralduse jaoks, loe juhendit [Wiki kasutamise juhend](./juhendid/wiki-kasutamine.md)
-- **Projects** – projektitahvel tuleb uues repositooriumis vajadusel eraldi luua või seadistada
-- **Muud töökorralduse seaded** – vajadusel tuleb üle vaadata ka milestones ja muud projekti seadistused
+- vaadata, kuidas mallist loodud projekt võiks olla üles ehitatud
+- mõista, kuidas GitHubi erinevaid osi digiloovtöös kasutada
+- näha, kuidas analüüs, ülesanded, arutelud ja dokumentatsioon omavahel seostuvad
 
 ## Kiirlingid
 
 - [Wiki](../../wiki)
 - [Discussions](../../discussions)
 - [Issues](../../issues)
+- [Projects](../../projects)
 - [Projekti kirjeldus](./projekti-kirjeldus.md)
-- [Juhendid](./juhendid)
 - [Projekti analüüs](./projekti-analuus)
 - [docs](./docs)
 
-## Alusta siit
+## Näidisprojekti sisu
 
-1. Vajuta **Use this template**.
-2. Loo selle põhjal uus repositoorium.
-3. Ava fail [`projekti-kirjeldus.md`](./projekti-kirjeldus.md).
-4. Täida oma töö põhiandmed.
-5. Tutvu juhenditega kaustas [`juhendid/`](./juhendid).
-6. Täida projekti analüüsi failid kaustas [`projekti-analuus/`](./projekti-analuus).
-7. Lisa töö käigus tekkivad materjalid kausta [`docs/`](./docs).
-8. Vajadusel seadista uues repositooriumis Wiki ja projektitahvel.
-9. Kasuta GitHubi töövahendeid ülesannete, arutelude ja edenemise jälgimiseks.
+### Projekti kirjeldus
 
-## Mida mall sisaldab
+Fail [`projekti-kirjeldus.md`](./projekti-kirjeldus.md) annab ülevaate töö eesmärgist, sihtrühmast, tulemusest ja peamistest tööetappidest.
 
-See mall sisaldab järgmisi faile ja kaustu:
+### Projekti analüüs
 
-- [`README.md`](./README.md) – lühike ülevaade mallist ja selle kasutamisest
-- [`projekti-kirjeldus.md`](./projekti-kirjeldus.md) – töö pealkirja, eesmärgi, autori, juhendaja ja muu põhinfo kirjeldamiseks
-- [`juhendid/`](./juhendid) – õpilase, õpetaja ja wiki kasutamise juhendid
-  - [`juhend-õpilasele.md`](./juhendid/juhend-%C3%B5pilasele.md)
-  - [`juhend-juhendajale.md`](./juhendid/juhend-juhendajale.md)
-  - [`wiki-kasutamine.md`](./juhendid/wiki-kasutamine.md)
-  - [`README.md`](./juhendid/README.md)
-- [`projekti-analuus/`](./projekti-analuus) – projekti analüüsi osa
-  - [`README.md`](./projekti-analuus/README.md) – selgitab, mis on personad, stsenaariumid ja kasutajalood ning miks neid vaja on
-  - [`personad.md`](./projekti-analuus/personad.md) – sihtrühma esindavate kasutajate kirjeldamiseks
-  - [`stsenaariumid.md`](./projekti-analuus/stsenaariumid.md) – kasutusolukordade kirjeldamiseks
-  - [`kasutajalood.md`](./projekti-analuus/kasutajalood.md) – kasutaja vajaduste ja ootuste sõnastamiseks
-- [`docs/`](./docs) – töö käigus tekkivate materjalide hoidmiseks
-  - [`README.md`](./docs/README.md) – selgitab, milliseid materjale sinna lisada
+Kaust [`projekti-analuus/`](./projekti-analuus) sisaldab näiteid sellest, kuidas kirjeldada:
+- personaid
+- stsenaariume
+- kasutajalugusid
 
-## Juhendid
+### Ülesanded ja edenemine
 
-- [Õpilase juhend](./juhendid/juhend-%C3%B5pilasele.md)
-- [Õpetaja juhend](./juhendid/juhend-juhendajale.md)
-- [Wiki kasutamise juhend](./juhendid/wiki-kasutamine.md)
-- [Juhendite README](./juhendid/README.md)
+Issues, milestone’id ja projektitahvel näitavad, kuidas töö saab jagada väiksemateks ülesanneteks ning kuidas edenemist on võimalik GitHubis jälgida.
 
-## Projekti analüüs
+### Arutelud
 
-Kaust [`projekti-analuus/`](./projekti-analuus) aitab enne praktilise lahenduse loomist läbi mõelda:
-- kellele lahendus on mõeldud
-- millist probleemi see lahendab
-- kuidas kasutaja lahendust kasutab
-- mida lahendus peaks võimaldama
+Discussions vaates on näha näide sellest, kuidas küsimusi, ideid ja abi saab projektitöö käigus arutada.
 
-Soovituslik järjekord on:
+### Töö käigus valminud materjalid
 
-1. [`personad.md`](./projekti-analuus/personad.md)
-2. [`stsenaariumid.md`](./projekti-analuus/stsenaariumid.md)
-3. [`kasutajalood.md`](./projekti-analuus/kasutajalood.md)
+Kaust [`docs/`](./docs) sisaldab töö käigus loodud materjale, näiteks kavandit, testimise märkmeid ja vahekokkuvõtteid.
 
-Lisaks tasub enne alustamist vaadata faili [`projekti-analuus/README.md`](./projekti-analuus/README.md).
+## Seos malliga
 
-## Suhtlus ja koostöö
+See repositoorium põhineb digiloovtöö mallil ja näitab, kuidas mall võib pärast kasutusele võtmist välja kujuneda.
 
-Selles repos kasutatakse erinevaid GitHubi tööriistu eri eesmärkidel.
+Kui soovid alustada oma projekti, kasuta selle asemel mallrepositooriumi:
+- [digiloovtoo-mall](https://github.com/DigiloovtooPlatvorm/digiloovtoo-mall)
 
-- **Issues** – konkreetsed ülesanded ja tööd
-- **Discussions** – küsimused, ideed ja abi küsimine
-- **Wiki** – pikemad juhised ja töökorraldus
-- **docs/** – projekti käigus valminud materjalid
+## Märkus
 
-Enne uue teema loomist vaata üle README, juhendid, wiki ja olemasolevad arutelud.
-
-## Abi saamine
-
-Kui sa ei ole kindel, mida teha:
-
-- vaata [õpilase juhendit](./juhendid/juhend-%C3%B5pilasele.md)
-- tutvu [wiki kasutamise juhendiga](./juhendid/wiki-kasutamine.md)
-- ava [wiki](../../wiki)
-- vaata [discussions](../../discussions)
-- ava [juhendite kaust](./juhendid)
-- vaata [organisatsiooni avalehte](https://github.com/DigiloovtooPlatvorm)
+Kõik GitHubi funktsioonid ei tule mallist automaatselt kaasa. Näidisprojektis on osa seadistusi, näiteks projektitahvel, wiki ja Discussions kategooriad, loodud või kohandatud eraldi, et näidata, kuidas täielikum töökorraldus võiks välja näha.
